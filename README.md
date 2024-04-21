@@ -1,23 +1,22 @@
-# Nextra Docs Template 
+# Mantresh Khurana's Docs
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+This is an official documentation for Mantresh Khurana's Projects.
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+## Installation
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+```bash
+npm i -g pnpm
+```
 
-## Quick Start
+## Development
 
-Click the button to clone this repository and deploy it on Vercel:
+To develop this project, you need to install [pnpm](https://pnpm.js.org/), then run the following commands:
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+```bash
+pnpm i
+pnpm dev
+```
 
-## Local Development
+## Build
 
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+Every push to the `stable` branch will trigger a build and deploy to [Vercel](https://vercel.com/).
