@@ -1,11 +1,100 @@
+---
+title: Introduction
+description: "This is an official documentation for Spyxpo."
+date: 2023-06-5
+image: "http://storage.spyxpo.com/assets/images/logo_rounded_square.png."
+---
+
+import { Tabs, Tab, Steps, Callout, Card, Cards } from "nextra-theme-docs";
+
 # Introduction
- 
-Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
 
-## What is Nextra?
+This is an example page for documentation.
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
+| Name | Description |
+| --- | --- |
+| Spyxpo | This is an official documentation for Spyxpo. |
 
-## Documentation
+<details>
+  <summary>My Accordion</summary>
+  <p>This is the content of my accordion.</p>
+</details>
 
-The documentation is available at [https://nextra.site](https://nextra.site).
+<Callout type="warning" emoji="⚠️">
+  This is a warning Callout.
+</Callout>
+
+<Callout type="custom" emoji="💡">
+  This is a custom Callout.
+</Callout>
+
+<Callout type="info" emoji="📝">
+  This is a info Callout.
+</Callout>
+
+<Cards>
+  <Card icon={""} title="Example 1" href="/example-1" />
+  <Card icon={""} title="Example 2" href="/example-2" />
+  <Card icon={""} title="Example 3" href="/example-3" />
+  <Card icon={""} title="Example 4" href="/example-4" />
+  <Card icon={""} title="Example 5" href="/example-5" />
+</Cards>
+
+## Example 1
+
+<Steps>
+
+### Example 1
+
+<Tabs
+  items={[
+    "Example 1",
+    "Example 2",
+    "Example 3",
+  ]}
+>
+  <Tab>
+    ```sh filename="script.sh"
+    sudo apt update
+    ```
+  </Tab>
+  <Tab>
+    ```sh
+    sudo apt upgrade
+    ```
+  </Tab>
+  <Tab>
+    ```sh
+    sudo apt dist-upgrade
+    ```
+  </Tab>
+</Tabs>
+
+### Example 2 
+
+<Tabs
+  items={[
+    "Example 1",
+    "Example 2",
+    "Example 3",
+  ]}
+>
+  <Tab>
+    ```sh
+    sudo apt update
+    ```
+  </Tab>
+  <Tab>
+    ```sh
+    sudo apt upgrade
+    ```
+  </Tab>
+  <Tab>
+    ```sh
+    sudo apt dist-upgrade
+    ```
+  </Tab>
+</Tabs>
+
+</Steps>
+

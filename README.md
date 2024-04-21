@@ -1,6 +1,6 @@
-# Mantresh Khurana's Docs
+# Spyxpo Documentation
 
-This is an official documentation for Mantresh Khurana's Projects.
+This is an official documentation for Spyxpo.
 
 ## Installation
 

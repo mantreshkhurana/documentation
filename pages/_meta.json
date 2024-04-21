@@ -1,15 +1,17 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
+  "apps": "Apps",
+  "products": "Products",
+  "projects": "Projects",
+  "packages": "Packages",
+  "open-source": "Open Source",
+  "sdks": "SDKs",
+  "apis": "APIs",
+  "faq": "F.A.Q",
+  "spyxpo": {
+    "title": "Spyxpo",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://www.spyxpo.com/",
     "newWindow": true
   }
 }
