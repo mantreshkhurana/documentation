@@ -1,6 +1,6 @@
-# Spyxpo Documentation
+# Mantresh's Documentation
 
-This is an official documentation for Spyxpo.
+This is an official documentation for **Mantresh's Documentation**.
 
 ## Installation
 
@@ -19,4 +19,4 @@ pnpm dev
 
 ## Build
 
-Every push to the `stable` branch will trigger a build and deploy to [Vercel](https://vercel.com/).
+Every push to the `main` branch will trigger a build and deploy to [Vercel](https://vercel.com/).
