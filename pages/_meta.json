@@ -1,17 +1,13 @@
 {
   "index": "Introduction",
   "apps": "Apps",
-  "products": "Products",
   "projects": "Projects",
   "packages": "Packages",
-  "open-source": "Open Source",
-  "sdks": "SDKs",
-  "apis": "APIs",
   "faq": "F.A.Q",
-  "spyxpo": {
-    "title": "Spyxpo",
+  "website": {
+    "title": "Webiste",
     "type": "page",
-    "href": "https://www.spyxpo.com/",
+    "href": "https://www.mantreshkhurana.com/",
     "newWindow": true
   }
 }

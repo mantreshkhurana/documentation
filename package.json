@@ -1,7 +1,7 @@
 {
-  "name": "spyxpo-docs",
+  "name": "mantresh-docs",
   "version": "1.0.0",
-  "description": "An official repository for Spyxpo Documentation.",
+  "description": "An official repository for Mantresh's Documentation.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.comspyxpo/documentation.git"
+    "url": "git+https://github.com/mantreshkhurana/documentation.git"
   },
-  "author": "Spyxpo",
+  "author": "Mantresh Khurana",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/spyxpo/documentation/issues"
+    "url": "https://github.com/mantreshkhurana/documentation/issues"
   },
-  "homepage": "https://github.com/spyxpo/documentation#readme",
+  "homepage": "https://github.com/mantreshkhurana/documentation#readme",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "latest",

@@ -17,28 +17,28 @@ const useDark = () => {
 };
 
 const config = {
-  docsRepositoryBase: "https://github.com/Spyxpo/documentation/blob/stable/",
+  docsRepositoryBase: "https://github.com/mantreshkhurana/documentation/blob/main/",
   navigation: { next: true, prev: true },
   darkMode: true,
   // banner: {
   //   text: () => {
   //     return (
   //       <Link
-  //         href="https://www.spyxpo.com/"
+  //         href="https://www.mantreshkhurana.com/"
   //         target="_blank"
   //         title="Website under development"
   //       >
-  //         Spyxpo →
+  //         Mantresh Khurana →
   //       </Link>
   //     );
   //   },
-  //   key: "Spyxpo new release",
+  //   key: "Mantresh's new release",
   // },
   footer: {
     text: () => {
       return (
         <p>
-          Copyright © 2023 Spyxpo. All rights reserved.
+          Copyright © 2024 Mantresh Khurana. All rights reserved.
         </p>
       );
     },
@@ -46,14 +46,14 @@ const config = {
   logo: () => {
     return (
       <>
-        <img
-          src={"http://storage.spyxpo.com/assets/images/logo_rounded_square.png"}
+        {/* <img
+          src={"https://www.mantreshkhurana.com/assets/img/logo.png"}
           width="30"
           height="30"
-          alt="Spyxpo"
+          alt="Mantresh Khurana"
           style={{ marginRight: "10px" }}
-        />
-        <span style={{ fontWeight: "600" }}>Documentation</span>
+        /> */}
+        <span style={{ fontWeight: "600" }}><b>Mantresh's</b> Documentation</span>
       </>
     );
   },
@@ -61,10 +61,10 @@ const config = {
     const { route } = useRouter();
     if (route !== "/") {
       return {
-        titleTemplate: "%s | Spyxpo Docs",
+        titleTemplate: "%s | Mantresh's Docs",
       };
     }
-    return { titleTemplate: "Spyxpo Docs" };
+    return { titleTemplate: "Mantresh's Docs" };
   },
   head: () => {
     const { asPath } = useRouter();
@@ -75,31 +75,31 @@ const config = {
       <>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <link rel="canonical" href="https://docs.spyxpo.com" />
-        <meta property="og:url" content={`https://docs.spyxpo.com${asPath}`} />
-        <meta property="og:site_name" content="spyxpo" />
-        <meta name="og:title" content="Spyxpo Docs" />
+        <link rel="canonical" href="https://documentation.mantreshkhurana.com" />
+        <meta property="og:url" content={`https://documentation.mantreshkhurana.com${asPath}`} />
+        <meta property="og:site_name" content="mantreshkhurana" />
+        <meta name="og:title" content="Mantresh's Docs" />
         <meta httpEquiv="Content-Language" content="en" />
         <meta name="viewport" content="width=device-width" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-title" content="Spyxpo" />
+        <meta name="apple-mobile-web-app-title" content="Mantresh Khurana" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta
           name="keywords"
-          content="spyxpo, documentation, software, flutter, fuchsia, linux, jOS, computer, operating system, os, system, kernel, dart, open source, material, design, zircon, go, rust"
+          content="mantresh, mantresh khurana, spyxpo, documentation, software, flutter, fuchsia, linux, jOS, computer, operating system, os, system, kernel, dart, open source, material, design, zircon, go, rust"
         />
         <meta
           property="description"
           content={
             meta.description ||
-            "Spyxpo's official documentation, learn how to use our products and services."
+            "Mantresh's official documentation, learn how to use our products and services."
           }
         />
         <meta
           property="og:description"
           content={
             meta.description ||
-            "Spyxpo's official documentation, learn how to use our products and services."
+            "Mantresh's official documentation, learn how to use our products and services."
           }
         />
 
@@ -107,16 +107,16 @@ const config = {
           property="twitter:card"
           content={meta.image ? "summary_large_image" : "summary"}
         />
-        <meta property="twitter:site" content="@spyxpo" />
+        <meta property="twitter:site" content="@mantreshkhurana" />
         {route === "/" ? (
-          <meta property="twitter:title" content="Spyxpo Docs" />
+          <meta property="twitter:title" content="Mantresh's Docs" />
         ) : (
-          <meta property="twitter:title" content={`${title} - Spyxpo Docs`} />
+          <meta property="twitter:title" content={`${title} - Mantresh's Docs`} />
         )}
         <meta property="twitter:description" content={meta.description} />
         <meta
           property="twitter:url"
-          content={`https://docs.spyxpo.io${asPath}`}
+          content={`https://documentation.mantreshkhurana.io${asPath}`}
         />
 
       </>
